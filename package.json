@@ -1,18 +1,17 @@
 {
   "name": "vue3-ssr",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "description": "基于vue3的服务端渲染。",
   "scripts": {
-    "dev": "nodemon dev.server.js",
+    "dev": "nodemon dev.server.mjs",
     "build": "npm run build:client && npm run build:server",
-    "build:client": "vite build --ssrManifest --outDir dist/client",
-    "build:server": "vite build --ssr src/entry-server.js --outDir dist/server",
-    "serve": "cross-env NODE_ENV=production node prod.server.js",
-    "debug": "nodemon --inspect-brk dev.server.js"
+    "build:client": "vite build --ssrManifest --outDir ssr/client",
+    "build:server": "vite build --ssr src/entry-server.js --outDir ssr/server",
+    "server": "cross-env node prod.server.js",
+    "debug": "nodemon --inspect-brk dev.server.mjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vue3","ssr","vue3-ssr","vue-router","pinia","axios"],
+  "author": "将梦拉到现实",
   "license": "ISC",
   "dependencies": {
     "@vue/server-renderer": "^3.2.37",

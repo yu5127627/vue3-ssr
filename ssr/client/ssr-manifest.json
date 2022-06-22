@@ -1,0 +1,170 @@
+{
+  "vite/modulepreload-polyfill": [],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "src/App.vue?vue&type=style&index=0&lang.css": [],
+  "plugin-vue:export-helper": [],
+  "src/App.vue": [],
+  "vite/preload-helper": [],
+  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [],
+  "src/router.js": [],
+  "node_modules/pinia/node_modules/vue-demi/lib/index.mjs": [],
+  "node_modules/pinia/dist/pinia.esm-browser.js": [],
+  "src/store/index.js": [],
+  "src/main.js": [],
+  "src/entry-client.js": [],
+  "index.html": [],
+  "api.865e6442.js": [
+    "/assets/api.fe34861f.css"
+  ],
+  "home.b045820d.js": [],
+  "\u0000/Users/ykn/Documents/code/self/vue3-ssr/node_modules/axios/lib/axios.js?commonjs-module": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/bind.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/utils.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/buildURL.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/InterceptorManager.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/normalizeHeaderName.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/AxiosError.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/defaults/transitional.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/toFormData.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/settle.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/cookies.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/isAbsoluteURL.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/combineURLs.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/buildFullPath.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/parseHeaders.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/isURLSameOrigin.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/cancel/CanceledError.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/parseProtocol.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/adapters/xhr.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/null.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/defaults/index.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/transformData.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/cancel/isCancel.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/dispatchRequest.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/mergeConfig.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/env/data.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/validator.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/core/Axios.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/cancel/CancelToken.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/spread.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/helpers/isAxiosError.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/lib/axios.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "node_modules/axios/index.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "src/store/modules/cache.js": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "src/pages/api.vue?vue&type=style&index=0&scoped=true&lang.less": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "src/pages/api.vue": [
+    "/assets/api.865e6442.js",
+    "/assets/api.fe34861f.css"
+  ],
+  "src/pages/home.vue": [
+    "/assets/home.b045820d.js"
+  ]
+}

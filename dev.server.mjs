@@ -34,7 +34,6 @@ export async function createServer(hmrPort) {
   app.use('*', async (req, res) => {
     try {
       const url = req.originalUrl.replace('/ssr/', '/')
-      console.log(url);
       let template = fs.readFileSync(resolve('index.html'), 'utf-8')
       template = await vite.transformIndexHtml(url, template)
       const [appHtml, preloadLinks,store] = await render(url, {})
