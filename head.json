@@ -1,0 +1,12 @@
+{
+  "home":{
+    "title":"首页",
+    "keywords":"关键词，首页，ssr",
+    "description":"我是首页，首页是vue-ssr渲染"
+  },
+  "api":{
+    "title":"api",
+    "keywords":"关键词，api，ssr",
+    "description":"我是api，api是vue-ssr服务端接口渲染"
+  }
+}

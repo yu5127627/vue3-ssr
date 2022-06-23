@@ -3,8 +3,19 @@ import path from 'node:path'
 import { fileURLToPath } from 'url'
 import express from 'express'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const resolve = (p) => path.resolve(__dirname, p);
+const resolve = p => path.resolve(__dirname, p);
+const head = JSON.parse(fs.readFileSync(resolve('head.json'),'utf8'));
 const PORT = 8010;
+
+function renderHead(url, head) {
+  const page = url.replace('/', '');
+  const { title,keywords,description } = head[page];
+  return `
+    <title>${title}</title>
+    <meta name="description" content="${description}">
+    <meta name="keywords" content="${keywords}">
+  `
+}
 
 export async function createServer(hmrPort) {
   const app = express()
@@ -37,8 +48,9 @@ export async function createServer(hmrPort) {
       let template = fs.readFileSync(resolve('index.html'), 'utf-8')
       template = await vite.transformIndexHtml(url, template)
       const [appHtml, preloadLinks,store] = await render(url, {})
-
+      const headStr = renderHead(url, head);
       let html = template
+        .replace(`<!--preload-head-->`, headStr)
         .replace(`<!--preload-links-->`, preloadLinks)
         .replace(`<!--app-html-->`, appHtml)
 
